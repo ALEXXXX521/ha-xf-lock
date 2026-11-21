@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "小峰门锁接入",
+        "description": "从杰峰开放平台应用详情页获取凭证。moveCard 请按应用页面实际值填写。",
+        "data": {
+          "uuid": "uuid",
+          "app_key": "AppKey",
+          "app_secret": "AppSecret",
+          "move_card": "moveCard",
+          "sn": "设备完整序列号",
+          "endpoint": "接入点域名",
+          "scan_interval": "刷新间隔(秒)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "连接或签名失败，请核对凭证、moveCard 和序列号是否正确，并确认设备已绑定到开放平台应用。"
+    },
+    "abort": {
+      "already_configured": "该设备已配置"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": { "scan_interval": "刷新间隔(秒)" }
+      }
+    }
+  }
+}

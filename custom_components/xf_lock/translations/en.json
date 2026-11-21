@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "XiaoFeng Lock",
+        "description": "Enter credentials from the JFTECH open platform app page.",
+        "data": {
+          "uuid": "uuid",
+          "app_key": "AppKey",
+          "app_secret": "AppSecret",
+          "move_card": "moveCard",
+          "sn": "Full device serial number",
+          "endpoint": "API endpoint host",
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connection or signature failed. Check credentials, moveCard and serial number."
+    },
+    "abort": {
+      "already_configured": "Already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": { "scan_interval": "Scan interval (seconds)" }
+      }
+    }
+  }
+}

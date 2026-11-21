@@ -1,0 +1,12 @@
+{
+  "domain": "xf_lock",
+  "name": "小峰门锁 (XiaoFeng Lock)",
+  "codeowners": ["@ALEXXXX521"],
+  "config_flow": true,
+  "documentation": "https://github.com/ALEXXXX521/ha-xf-lock",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ALEXXXX521/ha-xf-lock/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
